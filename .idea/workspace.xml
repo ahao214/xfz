@@ -4,7 +4,9 @@
     <list default="true" id="edfe6e8c-ba83-4c10-8064-b7e82e0a1ec2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/dist/css/index.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/css/index.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/dist/js/index.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/js/index.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/css/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/templates/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/news/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/templates/news/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="55" />
+            <state relative-caret-position="135">
+              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -31,29 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/dist/js/index.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/src/css/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+            <state relative-caret-position="146">
+              <caret line="91" column="29" lean-forward="true" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front/src/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            <state relative-caret-position="108">
+              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -91,10 +84,10 @@
         <option value="$PROJECT_DIR$/front/src/css/init.scss" />
         <option value="$PROJECT_DIR$/front/dist/css/constants.scss" />
         <option value="$PROJECT_DIR$/front/src/css/constants.scss" />
-        <option value="$PROJECT_DIR$/front/src/css/index.scss" />
         <option value="$PROJECT_DIR$/front/dist/js/jquery-3.3.1.min.js" />
-        <option value="$PROJECT_DIR$/front/src/js/index.js" />
         <option value="$PROJECT_DIR$/front/templates/news/index.html" />
+        <option value="$PROJECT_DIR$/front/src/css/index.scss" />
+        <option value="$PROJECT_DIR$/front/src/js/index.js" />
       </list>
     </option>
   </component>
@@ -108,8 +101,8 @@
     <handled-path value="$PROJECT_DIR$/front/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="92" />
-    <option name="y" value="12" />
+    <option name="x" value="146" />
+    <option name="y" value="36" />
     <option name="width" value="1180" />
     <option name="height" value="673" />
   </component>
@@ -466,34 +459,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/css/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/dist/js/index.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="91" column="29" lean-forward="true" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/templates/news/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="55" />
+        <state relative-caret-position="135">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
