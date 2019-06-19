@@ -2,7 +2,20 @@
 function Banner() {
     this.bannerGroup = $("#banner-group");
     this.index = 0;
+    this.leftArrow = $('.left-arrow');
+    this.rightArrow = $('.right-arrow');
     this.listenBannerHover();
+};
+
+Banner.prototype.toggleArrow = function (isShow) {
+    if(isShow) {
+        var self = this;
+        self.leftArrow.show();
+        self.rightArrow.show();
+    }else{
+        self.leftArrow.hide();
+        self.rightArrow.hide();
+    }
 };
 
 Banner.prototype.listenBannerHover = function (){
@@ -10,9 +23,11 @@ Banner.prototype.listenBannerHover = function (){
   this.bannerGroup.hover(function () {
       //鼠标移动到上面
       clearInterval(self.timer);
+      self.toggleArrow(true);
   },function () {
       //鼠标离开
       self.loop();
+      self.toggleArrow(false);
   });
 };
 
