@@ -6,6 +6,8 @@ var concat = require("gulp-concat");
 var tinypng_nokey = require('gulp-tinypng-nokey');
 var bs = require("browser-sync").create();
 var sass = require("gulp-sass");
+var util = require("gulp-util");
+var sourcemaps = require("gulp-sourcemaps");
 
 
 
@@ -35,13 +37,10 @@ gulp.task("css",done =>{
 //js任务
 gulp.task("js",done =>{
 	gulp.src("./src/js/*.js")
-	.pipe(uglify({
-		'toplevel':true,
-		'compress':{
-			'drop_console':true
-		}
-	}))
+	.pipe(sourcemaps.init())
+	.pipe(uglify().on('error',util.log))
 	.pipe(rename({"suffix":".min"}))
+	.pipe(sourcemaps.write())
 	.pipe(gulp.dest('./dist/js/'))
 	.pipe(bs.reload({
 		stream: true
